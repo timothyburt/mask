@@ -19,3 +19,15 @@ Company Startup Name
 
 - MaskedUp
 - 
+
+Font Choices
+
+- Modern Sans serif
+- Bold for Titles
+- Thinner weight for p tags, other text
+
+Colors
+
+- Don't use the standard Primary/Secondary Colors.
+- Mute or soften the colors to avoid eye bleed.
+- Analogous or complimentary color wheel.

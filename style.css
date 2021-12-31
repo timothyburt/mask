@@ -1,0 +1,15 @@
+.Mask > div {
+
+    margin: 25px;
+    padding: 20px;
+    height: 300px; 
+    width: 300px; 
+}
+
+.Mask {
+    display: flex;
+}
+
+body {
+    font-size: 18pt;
+}

@@ -1,8 +1,20 @@
 
 #warning {
     text-shadow: 2px 2px 5px;
+    font-size: 24pt;
+    letter-spacing: 2px;
 font-family: Arial, san serif;
-color:blue;
+animation-name: colorchange;
+animation: colorchange 1s infinite;
+}
+
+#warning {
+    display: flex;
+}
+
+@keyframes colorchange {
+    from {color:slateblue;}
+    to {color: mediumblue;}
 }
 .Mask > div {
 

@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-.banner > div {
-    width: 100%;
-    height: 1px;
-    border: 1px hidden;
-    box-sizing: border-box;
-}
-.banner {
-    display: flex;
-}
-
-#warning {
-    text-shadow: 2px 2px 5px;
-    font-size: 32pt;
-    letter-spacing: 2px;
-font-family: Arial, san serif;
-animation-name: colorchange;
-animation: colorchange 1s infinite;
-}
-
-@keyframes colorchange {
-    from {color:slateblue;}
-    to {color: mediumblue;}
-}
-.Mask > div {
-    margin: 50px;
-    padding: 50px;
-    height: 300px; 
-    width: 300px; 
-    border: hidden;
-    box-sizing: border-box;
-}
-.Mask {
-    display: flex;
-    text-align: center;
-}
-
-body {
-    background-color: gold;
-    font-family: Arial, sans-serif;
-    font-size: 18pt;
-=======
 
 #warning {
     text-shadow: 2px 2px 5px;
@@ -48,9 +6,6 @@ body {
 font-family: Arial, san serif;
 animation-name: colorchange;
 animation: colorchange 1s infinite;
-}
-
-#warning {
     display: flex;
 }
 
@@ -72,5 +27,4 @@ animation: colorchange 1s infinite;
 body {
     font-family: Arial, sans-serif;
     font-size: 18pt;
->>>>>>> 1c874dbfa5da54036eef81c5bb0a1b8dac954746
 }

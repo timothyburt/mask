@@ -1,9 +1,12 @@
 <<<<<<< HEAD
-.banner {
+.banner > div {
     width: 100%;
-    height: 780px;
+    height: 1px;
     border: 1px hidden;
     box-sizing: border-box;
+}
+.banner {
+    display: flex;
 }
 
 #warning {

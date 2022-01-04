@@ -1,7 +1,7 @@
 
 #warning {
     text-shadow: 2px 2px 5px;
-    font-size: 24pt;
+    font-size: 32pt;
     letter-spacing: 2px;
 font-family: Arial, san serif;
 animation-name: colorchange;
@@ -28,6 +28,7 @@ animation: colorchange 1s infinite;
 }
 
 body {
+    background-color: gold;
     font-family: Arial, sans-serif;
     font-size: 18pt;
 }

@@ -1,7 +1,7 @@
 
 #warning {
     text-shadow: 2px 2px 5px;
-    font-size: 24pt;
+    font-size: 32pt;
     letter-spacing: 2px;
 font-family: Arial, san serif;
 animation-name: colorchange;
@@ -14,14 +14,12 @@ animation: colorchange 1s infinite;
     to {color: mediumblue;}
 }
 .Mask > div {
-
-    margin: 25px;
-    padding: 20px;
-    height: 300px; 
-    width: 300px; 
+    border: hidden
 }
+
 .Mask {
     display: flex;
+    justify-content: center;
 }
 
 body {

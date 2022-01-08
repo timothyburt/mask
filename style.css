@@ -1,11 +1,18 @@
 
+#flight {
+    display: flex;
+    justify-content: right;
+    
+}
+
 #warning {
     text-shadow: 2px 2px 5px;
     font-size: 32pt;
+    word-spacing: 10px;
     letter-spacing: 2px;
 font-family: Arial, san serif;
 animation-name: colorchange;
-animation: colorchange 1s infinite;
+animation: colorchange 8s infinite;
     display: flex;
 }
 

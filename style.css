@@ -70,9 +70,9 @@ a:hover {
     font-size: 32pt;
     word-spacing: 10px;
     letter-spacing: 2px;
-font-family: Arial, san serif;
-animation-name: colorchange;
-animation: colorchange 8s infinite;
+    font-family: Arial, san serif;
+    animation-name: colorchange;
+    animation: colorchange 8s infinite;
     display: flex;
 }
 
@@ -81,7 +81,7 @@ animation: colorchange 8s infinite;
     to {color: mediumblue;}
 }
 .Mask > div {
-    border: hidden
+    border: hidden;
 }
 
 .Mask {

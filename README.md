@@ -9,16 +9,15 @@ Main Goals
 
 Pages
 
-1. Homepage
-2. Product
-3. Store / Location
-4. Mission / Who we are
-5. Contact Form
+1. Homepage / Logo - Derek / Tim
+2. Product - Sheba
+3. Store / Location - Sheba
+4. Mission / Who we are - Tim
+5. Contact Form / Nav Element - Sandhya
 
 Company Startup Name
 
 - MaskedUp
-- 
 
 Font Choices
 

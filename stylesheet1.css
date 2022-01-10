@@ -1,0 +1,21 @@
+    
+ 
+#form {
+    display:flex;
+     
+     
+}
+ 
+  #subbtn{
+      background-color: darkgray;
+  }
+
+   #logo{
+       padding-right:10px;
+   }
+   body{
+     background-color:bisque;
+     display: inline-flex;
+     flex-wrap:wrap;
+   }
+ 

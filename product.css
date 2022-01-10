@@ -33,3 +33,18 @@ animation: colorchange 8s infinite;
     width: 800px;
     height: 800px;
 }
+.paragraph1 > div {
+    margin: 10pt;
+    padding: 10pt;
+    border-style: solid;
+    border: 1px;
+    width: 40%;
+    height: 40%;
+    box-sizing: border-box;
+    justify-content: right;
+    flex: content;
+        }
+
+.paragraph1 {
+    display:flex;
+}

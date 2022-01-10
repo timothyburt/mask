@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(97, 163, 224);
+    font-family: Arial,
+    sans-serif;
+    font-size: 18px;
+}
+
+#maskedup {
+    text-shadow: 2px 2px 5px;
+    font-size: 32pt;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+font-family: Arial, san serif;
+animation-name: colorchange;
+animation: colorchange 8s infinite;
+    display: flex;
+}
+
+@keyframes colorchange {
+    from {color:slateblue;}
+    to {color: mediumblue;}
+}
+.Mask > div {
+    border: hidden
+}
+
+.Mask {
+    display: flex;
+    justify-content: center;
+}
+
+.Mask > img {
+    width: 800px;
+    height: 800px;
+}

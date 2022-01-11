@@ -34,10 +34,7 @@ body {
 
 .paragraph > div {
     padding: 50pt;
-    border-style: solid;
-    border: 1px;
     text-align: left;
-    align-content: flex-end;
 }
 
 .paragraph {

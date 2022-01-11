@@ -3,6 +3,7 @@ body {
     font-family: Arial,
     sans-serif;
     font-size: 18px;
+    margin: 0;
 }
 
 #maskedup {
@@ -22,8 +23,8 @@ body {
 }
 
 .Mask > div {
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
 }
 
 .Mask {
@@ -31,12 +32,16 @@ body {
     justify-content: center;
 }
 
+.heading {
+    padding: 50pt;
+}
+
 .paragraph > div {
-    margin: 20pt;
-    padding: 20pt;
+    padding: 50pt;
     border-style: solid;
     border: 1px;
-    text-align: right;
+    text-align: left;
+    align-content: flex-end;
 }
 
 .paragraph {

@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 90pt;
+    background-color: lightskyblue;
+    font-family: Arial,
+    sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 15px; 
+}
+
+.store  > {
+    width: 5%;
+    height: 5%;
+    border: 15px;
+    display: flex;
+    justify-content: center;
+
+}

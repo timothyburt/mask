@@ -32,10 +32,6 @@ body {
     justify-content: center;
 }
 
-.heading {
-    padding: 50pt;
-}
-
 .paragraph > div {
     padding: 50pt;
     border-style: solid;

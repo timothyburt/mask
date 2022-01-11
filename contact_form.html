@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mask Order Form</title>
     <link href="stylesheet1.css"/>
+    <script src="calculate.js"> </script>
 </head>
 <body>
     <div id="contact"> <h1> <b>Mask Order Form</b> </h1>
@@ -27,7 +28,7 @@
             <label> Mask Size:</label>
 <br/>
 <br/>
-<select style="margin-right:100px;"> 
+<select style="margin-right:100px;"  name="selectbtn" onchange="calculate()"> 
     <option  > 1</option>
     <option  > 2</option>;
     <option  > 3</option>
@@ -43,7 +44,7 @@
   <br/>
   <br/>
   <label style="margin-right:80px;"> <b>Total</b></label>
-  <label><b>$0.00</b></label>
+  <input  name="txtbtn" type="text"> </input>
  
 <br/>
 <br/>

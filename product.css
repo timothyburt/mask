@@ -15,6 +15,7 @@ body {
     animation-name: colorchange;
     animation: colorchange 8s infinite;
     display: flex;
+    justify-content: center;
 }
 
 @keyframes colorchange {
@@ -33,13 +34,30 @@ body {
 }
 
 .paragraph > div {
-    padding: 50pt;
-    text-align: left;
+    padding: 50%;
+    
 }
 
 .paragraph {
     display:flex;
 }
 
+.heading {
+   
+}
 
+#paragraph2 > div {
+    margin-left: 25%;
+    padding-left: 50%;
+    
+    
+}
+
+#paragraph2 {
+    
+}
+
+.NavEle {
+    display: inline
+  }
 

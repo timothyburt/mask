@@ -1,0 +1,15 @@
+a{
+    margin-left:80px;
+    margin-right:80px;
+    
+}
+img{
+    align-content: center;
+     margin-top:50px;
+     margin-left:150px;
+     margin-right:80px;
+}
+body
+{  background-image: linear-gradient(330deg, rgba(154, 255, 255, 0), rgba(154, 255, 255, 1));
+    color: black;}
+    

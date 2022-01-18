@@ -1,9 +1,18 @@
+
+ 
+  a{
+     
+    margin-top:60px;;
+  margin-left:80px;
+  margin-right:80px;
+  
+}
 #MaskOrder
 {
   display:flexbox;
    margin: auto;
    align-self:center;
-  max-width:500px;
+  max-width: 500px;
   align-content: center;
 } 
 #lname{
@@ -11,7 +20,7 @@
   align-content:center;
 }  
 h1{
-  font-size:larger;
+  font-size:xx-large;
 } 
  label{
    text-align: center;
@@ -22,7 +31,7 @@ h1{
   align-content: center;
    
   padding:10px;
-  max-width:1200px;
+  max-width:500px;
   border: 1px solid black;
   background-color: lightgray;
 }
@@ -38,10 +47,11 @@ h1{
        padding-right:10px;
    }
    body{
-     
+    background-image: linear-gradient(330deg, rgba(154, 255, 255, 0), rgba(154, 255, 255, 1));
+    color: black; 
      margin: auto;
      
-     max-width:500px;
+     
    }
 #img1{
   border:1px solid black;

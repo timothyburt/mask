@@ -29,24 +29,28 @@ p {
      padding: 15px 50px;
 }
 
-section {
+.content {
      display: flex;
-     flex-flow: column wrap;
+     flex-flow: row wrap;
      justify-content: center;
-     align-content: center;
      margin: 0 auto;
      width: 80%;
-     height: 500px;
 }
 
-section > div {
-     margin: 5px;
-     padding: 5px;
-     width: 33%;
+.content > div {
+     width: 30%;
 }
 
 img {
      width: 400px;
      height: 500px;
      border-radius: 10px;
+}
+
+/* Media query to stack divs when screen is smaller than 1200px */
+@media screen and (max-width: 1200px) {
+
+     .content > div {
+          width: 100%;
+     }
 }

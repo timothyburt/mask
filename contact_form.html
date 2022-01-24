@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mask Order Form</title>
-    <link rel="stylesheet"  href="stylesheet1.css"/>
+    <link rel="stylesheet"  href="contact_form.css"/>
     <nav class="NavEle">
         <a href="index1.html"  onmouseover="focus()" onmouseleave="blur()"> Homepage </a> 
            <a href="index.html" onmouseover="focus()" onmouseleave="blur()"  > Product </a>  
@@ -12,7 +12,17 @@
            <a href="store.html" onmouseover="focus()" onmouseleave="blur()">Store/Location </a> 
            <a href="mission.html" onmouseover="focus()" onmouseleave="blur()"> Mission </a> 
         </nav>
-    <script src="calculate.js"> </script>
+    <script>   
+    function Calculate()
+    { 
+      var NoOfMasks= document.getElementById("selectbtn").value;
+        
+        var cost=NoOfMasks * 20;
+       //document.write("No of masks",NoOfMasks + "");
+        //document.write("cost=",cost);
+         document.getElementById("price").value="$"+ cost ;
+    }
+       </script>
 </head>
 <body>
         <div id="MaskOrder">  
@@ -31,17 +41,21 @@
            <lable><b>$20</b> </lable>
            <br/>
            <br/>
-           <label style="margin-right:60px;"> No. of Masks:</label>
+           <label  id="NoMasks"> No. of Masks:</label>
             <label> Mask Size:</label>
 <br/>
 <br/>
-<select id="selectbtn" onchange="calculate()"> 
-    <option  > 1</option>
-    <option  > 2</option>
-    <option  > 3</option>
-    <option  > 4 </option>
-    <option>   5 </option>
-     
+<select  id="selectbtn" onchange="Calculate()"> 
+    <option> 1</option>
+    <option> 2</option>
+    <option> 3</option>
+    <option> 4 </option>
+    <option> 5 </option>
+    <option> 6 </option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+     <option>10</option>
    </select>
    <select id="selectsize"> 
     <option value="small"> Small</option>
@@ -50,8 +64,8 @@
    </select>
   <br/>
   <br/>
-  <label id="lblTotal" > <b>Total</b></label>
-  <input  name="txtbtn" type="number" value="$  " > </input>
+  <label id="lblTotal"> <b>Total : </b></label>
+ <output id="price"> </output>
  
 <br/>
 <br/>
@@ -83,7 +97,11 @@
 <label>example@example.com</label>
 <br/>
 <br/>
-
+<label>Mailing Address : </label>
+<br/>
+<textarea id="mailAdd"> </textarea>
+<br/>
+<br/>
 <label> Sign for Email/Newsletter: </label>
 <br/>
 <br/>
@@ -93,7 +111,7 @@
 <br/>
      
 <br/>
-<input type="button" id="subbtn" value="Submit"/> 
+<input type="button" id="subbtn"  value="Submit"/> 
 </div>
     
 </body>

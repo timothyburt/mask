@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(97, 163, 224);
+    background-color:rgb(126, 186, 223);
     font-family: Arial,
     sans-serif;
     font-size: 18px;
@@ -37,21 +37,9 @@ body {
     padding: 50%;
 }
 
-.paragraph {
-    display:flex;
-}
-
-.heading {
-   
-}
-
 #paragraph2 > div {
     margin-left: 25%;
     padding-left: 50%;
-}
-
-#paragraph2 {
-    
 }
 
 .NavEle {

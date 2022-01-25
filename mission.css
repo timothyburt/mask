@@ -29,12 +29,6 @@ p {
      padding: 15px 50px;
 }
 
-a {
-     margin-left: 80px;
-     margin-right: 80px;
-
-}
-
  #logo {
       width: 40px;
       height: 40px;
@@ -64,6 +58,57 @@ img {
      width: 400px;
      height: 500px;
      border-radius: 10px;
+}
+
+header {
+     width: 100%;
+     height: 100px;
+}
+
+nav {
+     display: flex;
+     justify-content: flex-start;
+     margin: auto;
+     padding: 25px 15px;
+}
+
+.logo {
+     margin-left: 10px;
+     width: 25%;
+}
+
+.logo>h1 {
+     display: inline;
+}
+
+.logo>span {
+     position: absolute;
+     top: 28px;
+     font-weight: bold;
+}
+
+.links {
+     align-self: center;
+     text-align: center;
+     width: 100%;
+}
+
+.links li {
+     display: inline;
+     text-transform: uppercase;
+     font-weight: 400;
+     padding: 10px;
+     margin: 10px;
+}
+
+.links a {
+     text-align: center;
+     text-decoration: none;
+     padding: 25px;
+}
+
+a:hover {
+     color: navy;
 }
 
 /* Media query to stack divs when screen is smaller than 1200px */

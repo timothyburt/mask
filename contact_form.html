@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mask Order Form</title>
     <link rel="stylesheet"  href="contact_form.css"/>
-    <nav class="NavEle">
-        <a href="index1.html"  onmouseover="focus()" onmouseleave="blur()"> Homepage </a> 
-           <a href="index.html" onmouseover="focus()" onmouseleave="blur()"  > Product </a>  
-           <a href="contact_form.html" onmouseover="focus()" onmouseleave="blur()"> Order Contact Form </a>
-           <a href="store.html" onmouseover="focus()" onmouseleave="blur()">Store/Location </a> 
-           <a href="mission.html" onmouseover="focus()" onmouseleave="blur()"> Mission </a> 
-        </nav>
+    
     <script>   
     function Calculate()
     { 
@@ -23,22 +17,29 @@
          document.getElementById("price").value="$"+ cost ;
     }
        </script>
+        <h1> <img  name="logo" src="masklogo1.png"/>MaskedUp</h1>  
+   
+  <br/>
+  <nav>
+   <a href="homepage.html" id="home"  onmouseover="focus()" onmouseleave="blur()"> Homepage </a> 
+      <a href="product.html" onmouseover="focus()" onmouseleave="blur()"  > Product </a>  
+      <a href="store.html" onmouseover="focus()" onmouseleave="blur()">Store/Location </a> 
+      <a href="mission.html" onmouseover="focus()" onmouseleave="blur()"> Mission </a> 
+   </nav>
 </head>
 <body>
-        <div id="MaskOrder">  
-        <br/>
-        <br/>
-                                    
-                   <h1>  <img  id="logo" src="masklogo1.png"/> Mask Order Form </h1>  
+        <div id="MaskOrder"> 
+              <br/>
+                     <h1> Mask Order form</h1>  
            <br/>
-           <br/>
+            
            <label> Masks</label>
             <br/>
            <img id="img1" src="n95img.jpg"/> 
            <br/>
            <label><b> N95 Mask with Valve</b></label>
            <br/>
-           <lable><b>$20</b> </lable>
+           <lable id="cost"><b>$20</b> </lable>
            <br/>
            <br/>
            <label  id="NoMasks"> No. of Masks:</label>

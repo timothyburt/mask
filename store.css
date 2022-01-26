@@ -1,15 +1,5 @@
-body {
-    margin: 0;
-    padding: 90pt;
-    background-image: linear-gradient(330deg, rgba(154, 255, 255, 0), rgba(154, 255, 255, 1));
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    box-sizing: border-box;
-    border: 15px; 
-}
 
-.store  > {
+.store > {
     width: 5%;
     height: 5%;
     border: 15px;
@@ -17,17 +7,9 @@ body {
     justify-content: center;
 }
 
-a{
-    margin-left:80px;
-    margin-right:80px;
-    
-}
 img{
     align-content: center;
      margin-top:50px;
      margin-left:150px;
      margin-right:80px;
 }
-body
-{  background-image: linear-gradient(330deg, rgba(154, 255, 255, 0), rgba(154, 255, 255, 1));
-    color: black;}

@@ -18,7 +18,9 @@
   margin-left:20px;
   align-content:center;
 }  
- 
+ #lblmask{
+   margin-left:50px;
+ }
  label{
    align-content: center;
  }
@@ -93,13 +95,15 @@ font-size:20px;
    }
     
  #logo{
-   align-content:left;
-   height:60px;
-   width:60px;
-   margin-right:0px;
+  width:60px;
+  height:40px;
+ margin-right:0px;
+ align-content:left;
     
  }
- 
+ #logoname{
+   margin-left:0px;
+ }
  #selectsize{
    font-size:20px;
  }

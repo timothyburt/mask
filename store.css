@@ -1,5 +1,9 @@
+h2 {
+    text-indent: 50px;
+    color: navy;
+}
 
-.store > {
+.store > div {
     width: 5%;
     height: 5%;
     border: 15px;
@@ -9,7 +13,8 @@
 
 img{
     align-content: center;
-     margin-top:50px;
-     margin-left:150px;
-     margin-right:80px;
+    margin-top:50px;
+    margin-left:150px;
+    margin-right:80px;
+    border-radius: 10px;
 }

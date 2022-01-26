@@ -1,91 +1,30 @@
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        html,
-        body{
-            margin: 0;
-            background-color:rgb(126, 186, 223);
-        }
-    </style>
+    <title>MaskUp Group Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="homepage.css"/>
 </head>
 <body>
-    <header>
-        <div class="banner">
-                <img src="img/Friday.png" alt="Masked Up logo">
-                <div class="links">                    
-                    <ul>
-                         <li><a href="#">Home</a></li>
-                         <li><a href="contact_form.html">Order</a></li>
-                         <li><a href="#">Mask Info</a></li>
-                         <li><a href="#">Contact Us</a></li>
-                    </ul>
+     <header> <!-- Header Navigation Element -->
+          <nav>
+               <div class="logo">
+                    <h1><img id="logo" src="masklogo1.png"/></h1>
+                    <span>MaskedUp</span>
                </div>
-        </div>
-        <nav>
-            
-            <!--Added Derek's banner for idea of display image. Somehow his code and Tim's input was in my html file and it caused a lot of issues. I had to delete. As Sandhya were the only two that were able to meet Tues (1/4), we decided it was best to do so. All of her coding was in separate files. it is better to move forward in that way for now to minimize confusion-->
-            
-
-<!--Add banner-->
-    
-    
-<div id="maskedup"> MASKED UP</div>
-<br>
-<p><b>Masked Up</b> is one of the newly designed facial protections against all COVID variants including Omicron.
-    <b>Masked Up</b> masks are NIOSH(National Institute for Occupational Safety & Health) & CDC (Center for Disease Control)  approved. They meet new standards for Personal Protective Equipment, have been tested to ensure that they perform at a consistent level and are reusable.
-    Wearing a mask over your nose and mouth is required on planes, buses, trains, and other forms of public transportation traveling into, within, or out of the United States and while indoors at U.S. transportation hubs such as airports and train stations.</p> <!--Source (https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html)-->
-   <br>
-    <div class="Mask"> <img src="/mask product sample a 1 8 2022.png" alt="Image of front and back N95 mask" width="800px" height="800px"></div> <!-- Source (https://www.bchsys.org/en/careers-and-volunteering/resources/Student-Placement-Modules/N95-Respirator.pdf)-->
-    <br>
-    
-    <br>
-    <p>It has been recommended by the Center for Disease Control (CDC) that everyone take precaution and maximize protection to prevent the possibility of spreading COVID-19 to others by wearing masks at all indoor public spaces and crowded outdoor settings and for activities with close contacts.</p> <!-- Source (https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html) -->
-    <br>
-   <h2>How to Select A Proper Mask</h2>
-   <p> When selecting a mask, there are many choices. It is essential to choose masks that:
-    <ul>
-        <li>have 2 or more layers of breathable fabric</li> 
-        <li>completely cover your nose and mouth</li>
-        <li>fit snugly against the sides of your face and don't have gaps</li>
-        <li>have a nose wire to prevent air from leaking out of the top of the mask</li>
-    </ul> 
-    <!--Source (https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html) -->
-    
-    <b>Masked Up</b> meets all of these requirements with the added benefit of stylish design. 
-    
-   <br>
-   Get your <b>Masked Up</b> mask at the low price of $12.99 for a pack of 6 while supplies last! <!--How about we add "Click link here to order" I figure I'd try asking first before I code...Sheba-->
-    </p>
-
-</body>
+               <div class="links">
+                    <a href="homepage.html" onmouseover="focus()" onmouseleave="blur()"> Homepage </a> 
+                    <a href="product.html" onmouseover="focus()" onmouseleave="blur()"  > Product </a>  
+                    <a href="contact_form.html" onmouseover="focus()" onmouseleave="blur()"> Order Contact Form </a>
+                    <a href="store.html" onmouseover="focus()" onmouseleave="blur()">Store/Location </a> 
+                    <a href="mission.html" onmouseover="focus()" onmouseleave="blur()"> Mission </a>                         
+               </div>
+          </nav>
+     </header>
+  <br/>
+  <br/>
+  <img  id="image" src="img/Banner.png" alt="Banner"/>
+    </body>
 </html>
-
-<!-- 1/7/22: Tim helping out the homepage -->
-
-<!-- 
-    Update: Fixing broken image links
-    - I went through and made sure the image files load on the html page.
-
-    Cleaned up the indenting of html.
-
-    Added a working navigational menu and got the banner image to display within the confines of the screen space properly.
-    
- -->
-
- <!--1/8/22:Sheba: updated some phrasing in, modified color background to light blue, deleted banner placehold, which seemed to cause coding errors to Tim's 1/7 fixes. I wanted to add an image at the top right: <br>
-<div id="flight"> <img src="https://images.unsplash.com/photo-1608590901306-7fa7eb6f6b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Link is image masked flight attendant giving instructions on airplane"></div><br>
-
-In addition, I also have images I would like to put side by side in divs to show how to put on a mask next to the already given instructions: <div id="maskon>
-    <div>img scr"N95 Masks\FWoman in N95-unsplashc 1-8-22.jpg</div>"-->
-   <!-- <div>img scr"N95 Masks\IWoman in N95-unsplashc 1-8-22.jpg</div>"-->
-    <!--<div>img scr"N95 Masks\EWoman in N95-unsplashc 1-8-22.jpg</div>"-->
-    <!--<div>img scr"N95 Masks\GWoman in N95-unsplashc 1-8-22.jpg</div>"-->
-    <!--</div>
-    
-        Sheba-->
-    

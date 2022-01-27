@@ -1,20 +1,23 @@
-
-#product{
-    margin-left:300px;
-}
-    #logo{
-        width:60px;
-        height:40px;
-       margin-right:0px;
-       align-content:left;
-    }
- 
- 
-#image{
+.content-left,
+.content-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-content: center;
-     margin-top:40px;
-     margin-left:220px;
-     margin-right:220px;
-}   
- 
- 
+    width: 50%;
+}
+
+.content-left {
+    width: 50%;
+}
+
+.content-left * {
+    padding: 10px;
+    margin: 5px auto;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
